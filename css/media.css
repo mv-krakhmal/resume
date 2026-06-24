@@ -1,0 +1,31 @@
+@media(max-width: 900px){
+    .box_text h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .box_text p{
+        color: #2d2e30;
+        padding: 20px 10px;
+        text-align: justify;
+    }
+    .box_text h4{
+        padding: 10px 10px;
+        text-align: center;
+    }
+    header .container{
+        flex-direction: column;
+    }
+    .box_text{
+        width: 100%;
+    }
+    .box_links{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
+    .container .btn{
+        width: 150px;  
+    }
+}
